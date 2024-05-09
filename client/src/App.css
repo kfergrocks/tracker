@@ -1,42 +1,66 @@
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+  width: 100%;
+}
+
+.navlink,
+.navlink:visited,
+.navlink:hover {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a,
+a:visited,
+a:hover {
+  color: black;
+}
+
+.navlink.active,
+.navlink.active:visited {
+  text-decoration: underline;
+}
+
+.hide {
+  display: none;
+}
+
+.errorList {
+  list-style: disc;
+}
+
+.center-cell {
   text-align: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.btn.active {
+  text-decoration: underline;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+datalist {
+  display: flex;
+  justify-content: space-between;
+  color: black;
+  width: 100%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
+input[type='range']::-webkit-slider-thumb {
+  background-color: var(--bs-success-bg-subtle);
+}
+@media screen and (orientation: portrait) {
+  .orientation-sensitive.show-portrait {
+    display: block;
+  }
+  .orientation-sensitive.show-landscape {
+    display: none;
   }
 }
 
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
+@media screen and (orientation: landscape) {
+  .orientation-sensitive.show-portrait {
+    display: none;
+  }
+  .orientation-sensitive.show-landscape {
+    display: block;
+  }
 }

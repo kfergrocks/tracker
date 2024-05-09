@@ -1,0 +1,74 @@
+[
+  {
+    "name": "alcohol",
+    "image": ""
+  },
+  {
+    "name": "caffeine",
+    "image": ""
+  },
+  {
+    "name": "cold",
+    "image": ""
+  },
+  {
+    "name": "commuting",
+    "image": ""
+  },
+  {
+    "name": "crowds",
+    "image": ""
+  },
+  {
+    "name": "family",
+    "image": ""
+  },
+  {
+    "name": "finances",
+    "image": ""
+  },
+  {
+    "name": "general stress",
+    "image": ""
+  },
+  {
+    "name": "heat",
+    "image": ""
+  },
+  {
+    "name": "humidity",
+    "image": ""
+  },
+  {
+    "name": "medication",
+    "image": ""
+  },
+  {
+    "name": "relationships",
+    "image": ""
+  },
+  {
+    "name": "sickness",
+    "image": ""
+  },
+  {
+    "name": "sleep deprivation",
+    "image": ""
+  },
+  {
+    "name": "smoking",
+    "image": ""
+  },
+  {
+    "name": "travel",
+    "image": ""
+  },
+  {
+    "name": "weather",
+    "image": ""
+  },
+  {
+    "name": "work",
+    "image": ""
+  }
+]
